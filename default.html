@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Master Design</title>
+<link href="master.css" rel="stylesheet" type="text/css" />
+<link rel="preconnect" href="https://fonts.gstatic.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"/>
+<link href="scrollbar.css" rel="stylesheet" type="text/css"/>
+<link href="quote.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+
+<div id="container">
+	<div id="topnav">
+		<a href="default.html">Home</a>
+		<a href="about.html">About</a>
+		<a href="events.html">Events</a>
+		<a href="news.html">News</a>
+		<a href="media.html">Media</a>
+		<a href="contact.html">Contact</a>
+		<a href="faq.html">FAQs</a>
+		<div id="dropdown">
+      		<a id="dropbtn">Other &#9660;</a>  
+      		<div id="dropdown-content">
+		        <a href="registration.html">Registration</a>
+				<a href="membership.html">Membership Benefits</a>
+				<a href="timeline.html">Timeline</a>
+				<a href="upcoming.html">Upcoming Events</a>
+      		</div>
+       	</div>
+       	<div id="searchnav">
+	       	<form name="searchnav" id="searchnav" method="get" action="#">
+				<input type="text" name="searchnav1" id="searchnav1" value="Keyword..." onfocus="this.value=''"/>
+				<input type="submit" value="Search" onclick="window.alert('Keyword not found')" />
+				<input type="reset" value="Clear" onclick="window.alert('Clearing: ' + document.getElementById('searchnav1').value)" />	
+			</form>
+		</div>
+	</div>
+	<div id="header">
+		<div id="transbox">
+			<a style="font-size:80px; font-family: 'Open Sans', sans-serif;font-weight:900">AMCS</a>
+		</div>
+		<div id="subtitle">
+			<a style="font-size:48px; font-family: 'Open Sans', sans-serif;font-weight:500">APU Malay Cultural Society</a>
+		</div>
+	</div>
+	<div id="content-area" style="width:900px">
+		<div id="page-title">
+		Welcome To AMCS
+		</div>
+		<div id="page-contents">
+			<p>AMCS (APU Malay Cultural Society) is a student society that specialized in introducing both local and foreigners to the wonderful of Malaysia.</p>
+			<p>Our club logo is the Hibiscus
+			Flower, which is Malaysia's National Flower.</p>
+			<table style="width: 800px">
+				<tr>
+					<td>
+					<img alt="Red Wood Panel" title="Logo Divider" width="300" height="400" src="wallpaper.jpg"/></td>
+					<td>
+			<img alt="AMCS Logo" longdesc="APU Malay Cultural Society Logo" src="logo.jpg" title="AMCS Logo" width="400" height="400"/></td>
+					<td><img alt="Red Wood Panel" title="Logo Divider" width="300" height="400" src="wallpaper.jpg"/></td>
+				</tr>
+			</table>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras finibus non nibh nec ornare. Vestibulum gravida dictum quam ut sagittis. Vivamus tempor, orci vel finibus tempus, felis turpis dictum nulla, ac rhoncus ipsum nibh vel sapien. Nullam nec ultricies purus. Nunc in magna at nibh convallis varius. Etiam congue, quam non laoreet mattis, diam urna mollis enim, vel blandit quam justo porta eros. Ut sollicitudin feugiat sapien, eget tempus metus accumsan tempor. Mauris eu mi eleifend, ornare diam vitae, ullamcorper urna. Ut sit amet eleifend justo.
+			</p>
+			<div class="slideshow-container">
+			  <div class="mySlides">
+			    <q>We may have different religions, different languages, different colored skin, but we all belong to one human race.</q>
+			    <p class="author">- Kofi Annan</p>
+			  </div>
+			  <div class="mySlides">
+			    <q>The crucial differences which distinguish human societies and human beings are not biological. They are cultural.</q>
+			    <p class="author">- Ruth Benedict</p>
+			  </div>
+			  <div class="mySlides">
+			    <q>Strength lies in differences, not in similarities.</q>
+			    <p class="author">- Stephen R. Covey</p>
+			  </div>
+			  <!-- Next/prev buttons -->
+			  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			
+			<!-- Dots/bullets/indicators -->
+			<div class="dot-container">
+			  <span class="dot" onclick="currentSlide(1)"></span>
+			  <span class="dot" onclick="currentSlide(2)"></span>
+			  <span class="dot" onclick="currentSlide(3)"></span>
+			</div>
+			<script type="text/javascript" src="quote.js"></script>
+		</div>
+	</div>
+	<div id="footer">
+	©2021 AMCS. All Rights Reserved.	
+	</div>
+</div>
+
+</body>
+
+</html>
