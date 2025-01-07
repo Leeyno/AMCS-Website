@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Master Design</title>
+<link href="master.css" rel="stylesheet" type="text/css" />
+<link rel="preconnect" href="https://fonts.gstatic.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"/>
+<link href="scrollbar.css" rel="stylesheet" type="text/css"/>
+<link href="profile.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+
+<div id="container">
+	<div id="topnav">
+		<a href="default.html">Home</a>
+		<a href="about.html">About</a>
+		<a href="events.html">Events</a>
+		<a href="news.html">News</a>
+		<a href="media.html">Media</a>
+		<a href="contact.html">Contact</a>
+		<a href="faq.html">FAQs</a>
+		<div id="dropdown">
+      		<a id="dropbtn">Other &#9660;</a>  
+      		<div id="dropdown-content">
+		        <a href="registration.html">Registration</a>
+				<a href="membership.html">Membership Benefits</a>
+				<a href="timeline.html">Timeline</a>
+				<a href="upcoming.html">Upcoming Events</a>
+      		</div>
+       	</div>
+       	<div id="searchnav">
+	       	<form name="searchnav" id="searchnav" method="get" action="#">
+				<input type="text" name="searchnav1" id="searchnav1" value="Keyword..." onfocus="this.value=''"/>
+				<input type="submit" value="Search" onclick="window.alert('Keyword not found')" />
+				<input type="reset" value="Clear" onclick="window.alert('Clearing: ' + document.getElementById('searchnav1').value)" />	
+			</form>
+		</div>
+	</div>
+	<div id="header">
+		<div id="transbox">
+			<a style="font-size:80px; font-family: 'Open Sans', sans-serif; font-weight:900">AMCS</a>
+		</div>
+		<div id="subtitle">
+			<a style="font-size:48px; font-family: 'Open Sans', sans-serif; font-weight:500">APU Malay Cultural Society</a>
+		</div>
+	</div>
+	<div id="content-area">
+		<div id="page-title">
+		Events
+		</div>
+		<br/>
+		<div id="page-contents">
+		To be announced.
+		</div>	
+	</div>
+	<div id="footer">
+	©2021 AMCS. All Rights Reserved.	
+	</div>
+	</div>
+</body>
+
+</html>
